@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.card-1 {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    background:url(./images/icon-supervisor.svg) no-repeat;
+    background-position: 90% 80%;
+    background-size: 3rem;
+}
+.card-2 {
+    border-top: 3px solid hsl(0, 78%, 62%);
+    background:url(./images/icon-team-builder.svg) no-repeat;
+    background-position: 90% 80%;
+    background-size: 3rem;
+
+
+}
+.card-3 {
+    border-top: 3px solid hsl(34, 97%, 64%);
+    background:url(./images/icon-karma.svg) no-repeat;
+    background-position: 90% 80%;
+    background-size: 3rem;
+
+}
+.card-4 {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    background:url(./images/icon-calculator.svg) no-repeat;
+    background-position: 90% 80%;
+    background-size: 3rem;
+
+}
+h1, h2 {
+    color: hsl(234, 12%, 34%);
+}
+p {
+    color: hsl(229, 6%, 66%);
+    font-size: 10px;
+    font-weight: 200;
+}
+.title h1:first-child {
+    font-weight: 200;
+}
+.title {
+    font-weight: 600;
+}
+h2 {
+    font-size: 15px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+.title > p {
+    margin-top: 2rem;
+    width: 50ch;
+    font-size: inherit;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card {
+    width: 18rem;
+    height: 13rem;
+    margin: 1rem;
+    border-radius: 3%;
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0px 11px 17px 2px hsla(234, 12%, 34%, 0.144);
+}
+
+.card > p {
+    margin-top: 1rem;
+}
